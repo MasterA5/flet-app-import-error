@@ -1,4 +1,4 @@
-from flet import Page, SafeArea, app, FloatingActionButton, Icons
+from flet import Page, SafeArea, run, FloatingActionButton, Icons
 from widgets.Counter import Counter
 
 def main(page: Page):
@@ -20,4 +20,4 @@ def main(page: Page):
     )
     page.update()
 
-app(target=main)
+run(main)
